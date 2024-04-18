@@ -16,7 +16,7 @@ class RegisterScreen extends StatelessWidget {
 }
 
 class _RegisterView extends StatelessWidget {
-  const _RegisterView({super.key});
+  const _RegisterView();
 
   @override
   Widget build(BuildContext context) {
