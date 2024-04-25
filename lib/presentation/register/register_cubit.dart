@@ -12,13 +12,16 @@ class RegisterCubit extends Cubit<RegisterFormState> {
 
   void userNameChanged(String value) {
     emit(state.copyWith(userName: value));
+    print('Submit:$state');
   }
 
   void emailChanged(String value) {
     emit(state.copyWith(email: value));
+    print('Submit:$state');
   }
 
   void passwordChanged(String value) {
     emit(state.copyWith(password: value));
+    print('Submit:$state');
   }
 }
